@@ -28,9 +28,14 @@ Additional Information
 * Functional Day - NoFunc(Non Functional Hours), Fun(Functional hours)
 
 ## Data Analysis
-I will be testing three different regression models:
+I will be testing these different regression models:
 1. LinearSVC
 2. RandomForestRegressor
 3. Linear Regression
+4. ElasticNet
+5. Lasso
 
-as a first pass then use hyperparameter tuning to find the optimal parameters
+## To Do:
+1. as a first pass then use hyperparameter tuning on the RandomForestRegressor to find the optimal parameters. After applying a GridSearchCV we will see the increase in the metrics (R2, MAE, MSE). 
+2. Check for multicolinearity
+
